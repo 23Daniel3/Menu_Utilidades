@@ -2,6 +2,8 @@ package MenuUtilidades.Triangulo;
 
 import java.util.Scanner;
 
+import MenuUtilidades.Constants.kTriangulo;
+
 public class TriBase {
 
     protected double base;
@@ -9,7 +11,7 @@ public class TriBase {
      Scanner input = new Scanner(System.in);
 
     public TriBase(){
-        System.out.println("Digite a base:");
+        System.out.println(kTriangulo.INPUT_STRING4);
         base = input.nextDouble();
     }
 }

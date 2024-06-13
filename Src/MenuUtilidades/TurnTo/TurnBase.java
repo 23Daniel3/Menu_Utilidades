@@ -2,6 +2,8 @@ package MenuUtilidades.TurnTo;
 
 import java.util.Scanner;
 
+import MenuUtilidades.Constants.kTurn;
+
 public class TurnBase {
 
     protected double number;
@@ -9,7 +11,7 @@ public class TurnBase {
     Scanner input = new Scanner(System.in);
 
     public TurnBase(){
-        System.out.println("Digite o número:");
+        System.out.println(kTurn.INPUT_STRING);
         number = input.nextDouble();
     }
 }

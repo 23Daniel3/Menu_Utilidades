@@ -1,11 +1,13 @@
 package MenuUtilidades.Triangulo;
 
+import MenuUtilidades.Constants.kTriangulo;
+
 public class Hipotenusa extends TriBase{
 
     public Hipotenusa(){
-        System.out.println("Digite a altura do triângulo:");
+        System.out.println(kTriangulo.INPUT_STRING2);
         double base2 = input.nextDouble();
         double result = Math.sqrt(Math.pow(base, 2) + Math.pow(base2, 2));
-        System.out.println("A hipotenusa é: " + result);
+        System.out.println(kTriangulo.ANSW_STRING2 + result);
     }
 }

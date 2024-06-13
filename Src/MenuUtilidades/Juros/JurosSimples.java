@@ -39,25 +39,25 @@ public class JurosSimples {
     }
 
     public static double getJuros(){
-        System.out.println("digite os juros");
+        System.out.println(SimplesJuros.GET_JUROS_STRING);
         juros = input.nextDouble();
         return juros;
     }
 
     public static double getTempo(){
-        System.out.println("digite o tempo (na mesma grandeza da taxa 'mês ou ano')");
+        System.out.println(SimplesJuros.GET_TEMPO_STRING);
         tempo = input.nextDouble();
         return tempo;
     }
 
     public static double getTaxa(){
-        System.out.println("digite a taxa");
+        System.out.println(SimplesJuros.GET_TAXA_STRING);
         taxa = input.nextDouble();
         return taxa;
     }
 
     public static double getCapital(){
-        System.out.println("digite o Capital");
+        System.out.println(SimplesJuros.GET_CAPITAL_STRING);
         capital = input.nextDouble();
         return capital;
     }
