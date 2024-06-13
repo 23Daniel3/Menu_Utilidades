@@ -10,10 +10,18 @@ import MenuUtilidades.Quadrilatero.Area;
 import MenuUtilidades.Triangulo.*;
 import MenuUtilidades.TurnTo.*;
 
+/**
+ * Classe principal que apresenta um menu de utilidades ao usuário.
+ */
 public class Utilidades {
 
     static Scanner scan = new Scanner(System.in);
 
+    /**
+     * Método principal que inicia o programa e exibe o menu de utilidades.
+     *
+     * @param args argumentos da linha de comando (não utilizados neste programa)
+     */
     public static void main(String[] args) {
         boolean execute = true;
 
@@ -24,6 +32,11 @@ public class Utilidades {
         }
     }
 
+    /**
+     * Método que executa a funcionalidade correspondente à opção escolhida pelo usuário.
+     *
+     * @param utilidade número que representa a opção escolhida pelo usuário
+     */
     private static void execute(int utilidade) {
         switch (utilidade) {
             case 1:
@@ -56,6 +69,11 @@ public class Utilidades {
         }
     }
 
+    /**
+     * Método que obtém a opção de utilidade escolhida pelo usuário.
+     *
+     * @return número que representa a opção escolhida pelo usuário
+     */
     private static int getUtilidade() {
         return scan.nextInt();
     }

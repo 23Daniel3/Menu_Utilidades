@@ -4,10 +4,16 @@ import java.util.Scanner;
 
 import MenuUtilidades.Constants.kQuadrilatero;
 
+/**
+ * Calcula a área de um quadrilátero com base nos lados informados pelo usuário.
+ */
 public class Area {
     
     Scanner input = new Scanner(System.in);
     
+    /**
+     * Construtor que solicita os lados do quadrilátero e exibe sua área.
+     */
     public Area(){
         System.out.println(kQuadrilatero.LADO_STRING);
         double lado1 = input.nextDouble();
@@ -19,4 +25,3 @@ public class Area {
         System.out.println(kQuadrilatero.AREA_STRING + result);
     }
 }
-    
