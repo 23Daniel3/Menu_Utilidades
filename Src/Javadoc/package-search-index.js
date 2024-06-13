@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"MenuUtilidades"},{"l":"MenuUtilidades.Calculadora"},{"l":"MenuUtilidades.Calculadora.Operacoes"},{"l":"MenuUtilidades.Juros"},{"l":"MenuUtilidades.Juros.Compostos"},{"l":"MenuUtilidades.Quadrilatero"},{"l":"MenuUtilidades.Triangulo"},{"l":"MenuUtilidades.TurnTo"}];updateSearchResults();

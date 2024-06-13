@@ -8,6 +8,9 @@ import MenuUtilidades.Constants.kTriangulo;
  */
 public class TriBase {
 
+    /**
+     * Criando o número base para os cálculos
+     */
     protected double base;
 
     Scanner input = new Scanner(System.in);
