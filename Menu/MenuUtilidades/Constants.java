@@ -215,6 +215,13 @@ public final class Constants {
         public static final double TEMPO = (JurosSimples.getJuros() * 100) / (JurosSimples.getCapital() * JurosSimples.getTaxa());
         public static final String TEMPO_STRING = "O tempo é: " + TEMPO + " na grandeza de tempo da taxa";
 
-        
+        public static final double TAXA = (JurosSimples.getJuros() * 100) / (JurosSimples.getCapital() * JurosSimples.getTempo());
+        public static final String TAXA_STRING = "A taxa é: " + TAXA + " % na grandeza do tempo";
+
+        public static final double JUROS = JurosSimples.getTaxa() * JurosSimples.getCapital() * JurosSimples.getTempo() / 100;
+        public static final String JUROS_STRING = "Os juros são: " + JUROS;
+
+        public static final double CAPITAL = (JurosSimples.getJuros() * 100) / (JurosSimples.getTaxa() * JurosSimples.getTempo());
+        public static final String CAPITAL_STRING = "O capital é: " + CAPITAL;
     }
 }

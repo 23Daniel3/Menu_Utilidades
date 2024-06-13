@@ -3,7 +3,6 @@ package MenuUtilidades.Juros;
 import java.util.Scanner;
 
 import MenuUtilidades.Constants.*;
-import MenuUtilidades.Juros.Simples.*;
 
 public class JurosSimples {
 
@@ -22,16 +21,16 @@ public class JurosSimples {
     private void execute(int type){
         switch (type) {
             case 1:
-            new SimpleJuros();
+                System.out.println(SimplesJuros.JUROS_STRING);
                 break;
             case 2:
-                new SimpleTempo();
+                System.out.println(SimplesJuros.TEMPO_STRING);
                 break;
             case 3:
-                new SimpleTaxa();
+                System.out.println(SimplesJuros.TAXA_STRING);
                 break;
             case 4:
-                new SimpleCapital();
+            System.out.println(SimplesJuros.CAPITAL_STRING);
                 break;
             default:
                 System.out.println(Kinvalid.INV_OPER);
