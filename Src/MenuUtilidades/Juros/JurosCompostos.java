@@ -8,6 +8,9 @@ import MenuUtilidades.Juros.Compostos.CompPeriodo;
 import MenuUtilidades.Juros.Compostos.CompTaxa;
 import MenuUtilidades.Juros.Compostos.Montante;
 
+/**
+ * Classe que calcula juros compostos com base nos valores fornecidos pelo usuário.
+ */
 public class JurosCompostos {
 
     private static Scanner input = new Scanner(System.in);
@@ -18,6 +21,9 @@ public class JurosCompostos {
     private static double valorMensal;
     private static double montante;
 
+    /**
+     * Construtor que exibe as opções de cálculo de juros compostos e solicita a escolha do usuário.
+     */
     public JurosCompostos(){
         System.out.println(kJuros.COMPOST_MESSAGE);
         execute(getUtilidade());
@@ -43,30 +49,55 @@ public class JurosCompostos {
         }
     }
 
+    /**
+     * Método estático que obtém o valor do período fornecido pelo usuário.
+     *
+     * @return o valor do período inserido pelo usuário
+     */
     public static int getPeriodo(){
         System.out.println(kJuros.PERIODO_STRING);
         tempo = input.nextInt();
         return tempo;
     }
 
+    /**
+     * Método estático que obtém o valor da taxa fornecida pelo usuário.
+     *
+     * @return o valor da taxa inserida pelo usuário
+     */
     public static double getTaxa(){
         System.out.println(kJuros.TAXA_STRING);
         taxa = input.nextDouble();
         return taxa;
     }
 
+    /**
+     * Método estático que obtém o valor do capital fornecido pelo usuário.
+     *
+     * @return o valor do capital inserido pelo usuário
+     */
     public static double getCapital(){
         System.out.println(kJuros.CAPITAL_STRING);
         capital = input.nextDouble();
         return capital;
     }
 
+    /**
+     * Método estático que obtém o valor mensal fornecido pelo usuário.
+     *
+     * @return o valor mensal inserido pelo usuário
+     */
     public static double getValorMensal(){
         System.out.println(kJuros.VALOR_STRING);
         valorMensal = input.nextDouble();
         return valorMensal;
     }
 
+    /**
+     * Método estático que obtém o valor do montante fornecido pelo usuário.
+     *
+     * @return o valor do montante inserido pelo usuário
+     */
     public static double getMontante(){
         System.out.println(kJuros.MONTANTE_STRING);
         montante = input.nextDouble();

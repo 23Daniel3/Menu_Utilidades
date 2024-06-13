@@ -3,12 +3,12 @@ package MenuUtilidades.Triangulo;
 import MenuUtilidades.Constants.kTriangulo;
 
 /**
- * Classe responsável por descobrir a altura de um triângulo com base nos dados fornecidos pelo usuário
+ * Classe responsável por descobrir a altura de um triângulo com base nos dados fornecidos pelo usuário.
  */
 public class Altura extends TriBase{
 
     /**
-     * Construtor responsável por solicitar os dados e realizar o cálculo para descobrir a altura de um triângulo
+     * Construtor responsável por solicitar os dados e realizar o cálculo para descobrir a altura de um triângulo.
      */
     public Altura(){
         System.out.println(kTriangulo.INPUT_STRING);

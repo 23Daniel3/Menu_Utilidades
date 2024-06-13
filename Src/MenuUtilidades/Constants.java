@@ -230,7 +230,7 @@ public final class Constants {
     /**
      * Mensagem para inserção da taxa mensal.
      */
-    public static final String TAXA_STRING = "digite a taxa mensal";
+    public static final String TAXA_STRING = "digite a taxa mensal (se precisar, use virgula ',')";
 
     /**
      * Mensagem para inserção do capital.

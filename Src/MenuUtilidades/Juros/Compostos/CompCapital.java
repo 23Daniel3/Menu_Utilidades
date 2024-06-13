@@ -2,6 +2,9 @@ package MenuUtilidades.Juros.Compostos;
 
 import MenuUtilidades.Juros.JurosCompostos;
 
+/**
+ * Classe responsável por calcular o capital com juros compostos com base nos valores fornecidos pelo usuário.
+ */
 public class CompCapital {
 
     public CompCapital(){
