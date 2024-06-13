@@ -27,7 +27,7 @@ public class Calculadora {
      * @return O primeiro número digitado pelo usuário.
      */
     public static double getFirstNumber() {
-        System.out.println(kObey.nmrDes);
+        System.out.println(kObey.NMR1_STRING);
         return input.nextDouble();
     }
 
@@ -37,7 +37,7 @@ public class Calculadora {
      * @return A operação digitada pelo usuário como uma string.
      */
     public static String getOperacao() {
-        System.out.println(CalcConstants.kStrOperacao);
+        System.out.println(CalcConstants.STRING_OPERACAO);
         return input.next();
     }
 
@@ -62,25 +62,25 @@ public class Calculadora {
                 new Divisao(firstNumber, 4);
                 break;
             case "^":
-                System.out.println(CalcConstants.strPot);
+                System.out.println(CalcConstants.STRING_POT);
                 new Potencia(firstNumber, 5);
                 break;
             case "@":
-                System.out.println(CalcConstants.strRQ);
+                System.out.println(CalcConstants.STRING_RQ);
                 new RaizQuadrada(firstNumber, 6);
                 break;
             case "#":
-                System.out.println(CalcConstants.strRC);
+                System.out.println(CalcConstants.STRING_RC);
                 new RaizCubica(firstNumber, 7);
                 break;
             case "%":
-                System.out.println(PercConstants.kFirst);
+                System.out.println(PercConstants.K_FIRST);
                 new Percentage(firstNumber, 8);
                 break;
             case "//":
                 new Media(firstNumber, 9);
             default:
-                System.out.println(Kinvalid.invOper);
+                System.out.println(Kinvalid.INV_OPER);
                 break;
         }
     }

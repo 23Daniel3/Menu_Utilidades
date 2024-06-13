@@ -20,6 +20,6 @@ public class Percentage extends CalculatingBase {
         super(oper);
         this.numero1 = firstNumber;
         result = (float) ((firstNumber * 100) / numero2);
-        System.out.println(PercConstants.kStr + result + "%");
+        System.out.println(PercConstants.STRING + result + "%");
     }
 }

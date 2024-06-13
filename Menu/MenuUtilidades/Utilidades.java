@@ -3,6 +3,7 @@ package MenuUtilidades;
 import java.util.Scanner;
 
 import MenuUtilidades.Calculadora.Calculadora;
+import MenuUtilidades.Constants.Kinvalid;
 import MenuUtilidades.Constants.kUtilidade;
 import MenuUtilidades.Juros.Juros;
 import MenuUtilidades.Quadrilatero.Area;
@@ -50,7 +51,7 @@ public class Utilidades {
                 new Juros();
                 break;
             default:
-                System.out.println("Opção inválida! Tente novamente.");
+                System.out.println(Kinvalid.INV_OPER);
                 break;
         }
     }

@@ -31,7 +31,7 @@ public class CalculatingBase {
      */
     public CalculatingBase(int oper){
         if (oper == 1 || oper == 2 || oper == 3 || oper == 4 || oper == 5 || oper == 9){
-            System.out.println(kObey.nmr2Str);
+            System.out.println(kObey.NMR2_STRING);
             this.numero2 = scan.nextDouble();
         } else if (oper == 8){
             this.numero2 = scan.nextDouble();

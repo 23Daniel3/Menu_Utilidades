@@ -19,6 +19,6 @@ public class Divisao extends CalculatingBase {
         super(oper);
         this.numero1 = firstNumber;
         double result = numero1 / numero2;
-        System.out.println(DivConstants.kStr + result);
+        System.out.println(DivConstants.STRING + result);
     }
 }

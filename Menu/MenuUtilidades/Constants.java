@@ -1,5 +1,7 @@
 package MenuUtilidades;
 
+import MenuUtilidades.Juros.JurosSimples;
+
 /**
  * Classe que contém todas as constantes usadas na calculadora.
  */
@@ -12,7 +14,7 @@ public final class Constants {
         /**
          * Mensagem de resultado da soma.
          */
-        public static final String kStr = "Resultado da Soma: ";
+        public static final String STRING = "Resultado da Soma: ";
     }
 
     /**
@@ -22,7 +24,7 @@ public final class Constants {
         /**
          * Mensagem de resultado da subtração.
          */
-        public static final String kStr = "Resultado da Subtração: ";
+        public static final String STRING = "Resultado da Subtração: ";
     }
 
     /**
@@ -32,7 +34,7 @@ public final class Constants {
         /**
          * Mensagem de resultado da multiplicação.
          */
-        public static final String kStr = "Resultado da Multiplicação: ";
+        public static final String STRING = "Resultado da Multiplicação: ";
     }
 
     /**
@@ -42,7 +44,7 @@ public final class Constants {
         /**
          * Mensagem de resultado da divisão.
          */
-        public static final String kStr = "Resultado da Divisão: ";
+        public static final String STRING = "Resultado da Divisão: ";
     }
 
     /**
@@ -52,7 +54,7 @@ public final class Constants {
         /**
          * Mensagem de resultado da divisão.
          */
-        public static final String kStr = "Media dos dois valores: ";
+        public static final String STRING = "Media dos dois valores: ";
     }
 
     /**
@@ -62,7 +64,7 @@ public final class Constants {
         /**
          * Mensagem de resultado da raiz quadrada.
          */
-        public static final String kStr = "A Raiz quadrada é: ";
+        public static final String STRING = "A Raiz quadrada é: ";
     }
 
     /**
@@ -72,7 +74,7 @@ public final class Constants {
         /**
          * Mensagem de resultado da raiz cúbica.
          */
-        public static final String kStr = "A Raiz cubica é: ";
+        public static final String STRING = "A Raiz cubica é: ";
     }
 
     /**
@@ -82,7 +84,7 @@ public final class Constants {
         /**
          * Mensagem de resultado da potência.
          */
-        public static final String kStr = "Resultado da Potência: ";
+        public static final String STRING = "Resultado da Potência: ";
     }
 
     /**
@@ -92,11 +94,11 @@ public final class Constants {
         /**
          * Mensagem para pedir o número para descobrir a porcentagem.
          */
-        public static final String kFirst = "Digite o número à descobrir a porcentagem: ";
+        public static final String K_FIRST = "Digite o número à descobrir a porcentagem: ";
         /**
          * Mensagem de resultado da porcentagem.
          */
-        public static final String kStr = "A porcentagem é: ";
+        public static final String STRING = "A porcentagem é: ";
     }
 
     /**
@@ -106,7 +108,7 @@ public final class Constants {
         /**
          * Mensagem para pedir a operação desejada.
          */
-        public static final String kStrOperacao = "Digite a operação desejada:\n"
+        public static final String STRING_OPERACAO = "Digite a operação desejada:\n"
                 + "(+) para Soma\n"
                 + "(-) para Subtração\n"
                 + "(*) para Multiplicação\n"
@@ -120,15 +122,15 @@ public final class Constants {
         /**
          * Mensagem de aviso para a operação de potência.
          */
-        public static final String strPot = "Atenção!! Digite primeiro o numero e depois a potência";
+        public static final String STRING_POT = "Atenção!! Digite primeiro o numero e depois a potência";
         /**
          * Mensagem de aviso para a operação de raiz quadrada.
          */
-        public static final String strRQ = "Atenção!! Você receberá o radicando 'arredondado' ao índice 2";
+        public static final String STRING_RQ = "Atenção!! Você receberá o radicando 'arredondado' ao índice 2";
         /**
          * Mensagem de aviso para a operação de raiz cúbica.
          */
-        public static final String strRC = "Atenção!! Você receberá o radicando 'arredondado' ao índice 3";
+        public static final String STRING_RC = "Atenção!! Você receberá o radicando 'arredondado' ao índice 3";
     }
 
     /**
@@ -138,7 +140,7 @@ public final class Constants {
         /**
          * Mensagem de operação inválida.
          */
-        public static final String invOper = "Operação Invalida";
+        public static final String INV_OPER = "Operação Invalida";
     }
 
     /**
@@ -148,23 +150,23 @@ public final class Constants {
         /**
          * Mensagem para pedir o primeiro número.
          */
-        public static final String nmr1Str = "Digite o primeiro número: ";
+        public static final String NMR1_STRING = "Digite o primeiro número: ";
         /**
          * Mensagem para pedir o segundo número.
          */
-        public static final String nmr2Str = "Digite o segundo número: ";
+        public static final String NMR2_STRING = "Digite o segundo número: ";
         /**
          * Mensagem para pedir o número total.
          */
-        public static final String nmrPerc = "Digite o número total: ";
+        public static final String NMR3_STRING = "Digite o número total: ";
         /**
          * Mensagem para pedir o número desejado.
          */
-        public static final String nmrDes = "Digite o número desejado: ";
+        public static final String NMR4_STRING = "Digite o número desejado: ";
         /**
          * Mensagem para perguntar se o usuário deseja continuar calculando.
          */
-        public static final String kCont = "Deseja continuar calculando? digite 'sim' para continuar ou 'menu' para voltar ao menu";
+        public static final String CONT = "Deseja continuar calculando? digite 'sim' para continuar ou 'menu' para voltar ao menu";
     }
 
     public static final class kUtilidade {
@@ -196,5 +198,23 @@ public final class Constants {
             + "(2) para capital\n"
             + "(3) para taxa\n"
             + "(4) para periodo\n";
+
+        public static final String TYPE = 
+            "Digite o tipo de cálculo de juros:\n"
+            +"(1) para juros compostos\n"
+            +"(2) para juros simples\n";
+
+        public static final String PERIODO_STRING = "digite o periodo em meses";
+        public static final String TAXA_STRING = "digite a taxa mensal";
+        public static final String CAPITAL_STRING = "digite o Capital";
+        public static final String VALOR_STRING = "digite o valor mensal";
+        public static final String MONTANTE_STRING = "digite o montante";
+    }
+
+    public final class SimplesJuros {
+        public static final double TEMPO = (JurosSimples.getJuros() * 100) / (JurosSimples.getCapital() * JurosSimples.getTaxa());
+        public static final String TEMPO_STRING = "O tempo é: " + TEMPO + " na grandeza de tempo da taxa";
+
+        
     }
 }

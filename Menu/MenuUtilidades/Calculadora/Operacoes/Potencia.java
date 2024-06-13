@@ -19,6 +19,6 @@ public class Potencia extends CalculatingBase {
         super(oper);
         this.numero1 = firstNumber;
         double result = Math.pow(numero1, numero2);
-        System.out.println(PotConstants.kStr + result);
+        System.out.println(PotConstants.STRING + result);
     }
 }

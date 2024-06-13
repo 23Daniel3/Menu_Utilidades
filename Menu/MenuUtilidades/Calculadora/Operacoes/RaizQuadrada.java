@@ -19,6 +19,6 @@ public class RaizQuadrada extends CalculatingBase {
         super(oper);
         this.numero1 = firstNumber;
         double result = Math.sqrt(numero1);
-        System.out.println(RQConstants.kStr + result);
+        System.out.println(RQConstants.STRING + result);
     }
 }

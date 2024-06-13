@@ -19,6 +19,6 @@ public class Subtracao extends CalculatingBase {
         super(oper);
         this.numero1 = firstNumber;
         double resultado = numero1 - numero2;
-        System.out.println(SubtConstants.kStr + resultado);
+        System.out.println(SubtConstants.STRING + resultado);
     }
 }

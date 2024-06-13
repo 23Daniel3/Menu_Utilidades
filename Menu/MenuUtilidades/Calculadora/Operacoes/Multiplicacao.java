@@ -19,6 +19,6 @@ public class Multiplicacao extends CalculatingBase {
         super(oper);
         this.numero1 = firstNumber;
         double result = numero1 * numero2;
-        System.out.println(MultConstants.kStr + result);
+        System.out.println(MultConstants.STRING + result);
     }
 }

@@ -34,7 +34,7 @@ public class JurosSimples {
                 new SimpleCapital();
                 break;
             default:
-                System.out.println(Kinvalid.invOper);
+                System.out.println(Kinvalid.INV_OPER);
                 break;
         }
     }

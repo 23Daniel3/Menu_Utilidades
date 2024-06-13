@@ -19,6 +19,6 @@ public class Soma extends CalculatingBase {
         super(oper);
         this.numero1 = firstNumber;
         double resultado = numero1 + numero2;
-        System.out.println(SomaConstants.kStr + resultado);
+        System.out.println(SomaConstants.STRING + resultado);
     }
 }

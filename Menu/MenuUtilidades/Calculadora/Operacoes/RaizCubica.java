@@ -20,6 +20,6 @@ public class RaizCubica extends CalculatingBase {
         super(oper);
         this.numero1 = firstNumber;
         double result = Math.cbrt(numero1);
-        System.out.println(RCConstants.kStr + result);
+        System.out.println(RCConstants.STRING + result);
     }
 }

@@ -38,37 +38,37 @@ public class JurosCompostos {
                 new CompPeriodo();
                 break;
             default:
-                System.out.println(Kinvalid.invOper);
+                System.out.println(Kinvalid.INV_OPER);
                 break;
         }
     }
 
     public static int getPeriodo(){
-        System.out.println("digite o periodo em meses");
+        System.out.println(kJuros.PERIODO_STRING);
         tempo = input.nextInt();
         return tempo;
     }
 
     public static double getTaxa(){
-        System.out.println("digite a taxa em meses");
+        System.out.println(kJuros.TAXA_STRING);
         taxa = input.nextDouble();
         return taxa;
     }
 
     public static double getCapital(){
-        System.out.println("digite o Capital");
+        System.out.println(kJuros.CAPITAL_STRING);
         capital = input.nextDouble();
         return capital;
     }
 
     public static double getValorMensal(){
-        System.out.println("digite o valor mensal");
+        System.out.println(kJuros.VALOR_STRING);
         valorMensal = input.nextDouble();
         return valorMensal;
     }
 
     public static double getMontante(){
-        System.out.println("digite o montante");
+        System.out.println(kJuros.MONTANTE_STRING);
         montante = input.nextDouble();
         return montante;
     }

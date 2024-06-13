@@ -3,19 +3,14 @@ package MenuUtilidades.Juros;
 import java.util.Scanner;
 
 import MenuUtilidades.Constants.Kinvalid;
+import MenuUtilidades.Constants.kJuros;
 
 public class Juros {
 
     static Scanner input = new Scanner(System.in);
 
     public Juros(){
-
-        System.out.println(
-            "Digite o tipo de cálculo de juros:\n"
-            +"(1) para juros compostos\n"
-            +"(2) para juros simples\n"
-        );
-        
+        System.out.println(kJuros.TYPE);
         execute(getCalc());
     }
 
@@ -32,7 +27,7 @@ public class Juros {
                 new JurosSimples();
                 break;
             default:
-                System.out.println(Kinvalid.invOper);
+                System.out.println(Kinvalid.INV_OPER);
                 break;
         }
     }
