@@ -20,11 +20,11 @@ public class Juros {
         execute(getCalc());
     }
 
-    private static int getCalc(){
-        return input.nextInt();
+    private static byte getCalc(){
+        return input.nextByte();
     }
 
-    private static void execute(int calc) {
+    private static void execute(byte calc) {
         switch (calc) {
             case 1:
                 new JurosCompostos();

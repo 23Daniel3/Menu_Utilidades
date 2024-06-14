@@ -36,7 +36,7 @@ public class Utilidades {
      *
      * @param utilidade número que representa a opção escolhida pelo usuário
      */
-    private static void execute(int utilidade) {
+    private static void execute(byte utilidade) {
         switch (utilidade) {
             case 1:
                 new Calculadora();
@@ -70,7 +70,7 @@ public class Utilidades {
      *
      * @return número que representa a opção escolhida pelo usuário
      */
-    private static int getUtilidade() {
-        return scan.nextInt();
+    private static byte getUtilidade() {
+        return scan.nextByte();
     }
 }

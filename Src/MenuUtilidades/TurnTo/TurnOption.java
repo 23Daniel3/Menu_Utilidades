@@ -23,7 +23,7 @@ public class TurnOption {
     /**
      * @param turn responsavel por executar cada classe com base no numero digitado.
      */
-    private static void execute(int turn){
+    private static void execute(byte turn){
         switch(turn){
             case 1:
                 new CelsiusToFahrenheit();
@@ -39,8 +39,8 @@ public class TurnOption {
     /**
      * @return o numero digitado pelo usuario referente a opcao escolhida.
      */
-    private int getTurn(){
-        return input.nextInt();
+    private byte getTurn(){
+        return input.nextByte();
     }
 
 }
