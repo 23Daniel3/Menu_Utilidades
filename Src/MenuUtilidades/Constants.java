@@ -180,13 +180,12 @@ public final class Constants {
         public static final String INITIAL_MESSAGE = "\n"
             + "Digite a sua necessidade\n"
             + "(1) para Calculadora\n"
-            + "(2) para transformar graus Celsius em Fahrenheit\n"
-            + "(3) para transformar graus Fahrenheit em Celsius\n"
-            + "(4) para descobrir a hipotenusa entre uma base e altura\n"
-            + "(5) para descobrir a altura entre uma hipotenusa e uma base\n"
-            + "(6) para descobrir a área de um quadrilátero\n"
-            + "(7) para descobrir a área de um triângulo\n"
-            + "(8) para calcular juros\n";
+            + "(2) para transformações de graus\n"
+            + "(3) para descobrir a hipotenusa entre uma base e altura\n"
+            + "(4) para descobrir a altura entre uma hipotenusa e uma base\n"
+            + "(5) para descobrir a área de um quadrilátero\n"
+            + "(6) para descobrir a área de um triângulo\n"
+            + "(7) para calcular juros\n";
     }
 
     /**
@@ -359,6 +358,14 @@ public final class Constants {
     * Constantes relacionadas à entrada e saída de dados de um cálculo genérico.
     */
     public static final class kTurn {
+
+        /**
+         * Mensagem para reber o calculo desejado.
+         */
+        public static final String OPTION_STRING = 
+                "Digite o calculo desejado\n"
+                + "(1) para tranformar graus celcius em fahrenheit\n"
+                + "(2) para transformar graus fahrenheit em celcius\n"; 
 
         /**
         * Mensagem para inserção de um número.

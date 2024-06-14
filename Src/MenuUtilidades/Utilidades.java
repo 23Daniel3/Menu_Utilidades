@@ -27,7 +27,6 @@ public class Utilidades {
 
         while (execute) {
             System.out.println(kUtilidade.INITIAL_MESSAGE);
-
             execute(getUtilidade());
         }
     }
@@ -43,24 +42,21 @@ public class Utilidades {
                 new Calculadora();
                 break;
             case 2:
-                new CelsiusToFahrenheit();
+                new TurnOption();
                 break;
             case 3:
-                new FahreinheitToCelsius();
-                break;
-            case 4:
                 new Hipotenusa();
                 break;
-            case 5:
+            case 4:
                 new Altura();
                 break;
-            case 6:
+            case 5:
                 new Area();
                 break;
-            case 7: 
+            case 6: 
                 new TriArea();
                 break;
-            case 8:
+            case 7:
                 new Juros();
                 break;
             default:
