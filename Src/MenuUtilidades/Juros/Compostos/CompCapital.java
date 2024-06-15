@@ -8,7 +8,7 @@ import MenuUtilidades.Juros.JurosCompostos;
 public class CompCapital {
 
     /**
-     * Construtor responsavel por calcular o capital com juros compostos.
+     * Construtor responsável por calcular o capital com juros compostos.
      */
     public CompCapital(){
         double taxa = JurosCompostos.getTaxa() / 100;

@@ -17,7 +17,7 @@ public class TurnBase {
     Scanner input = new Scanner(System.in);
 
     /**
-     * Construtor responsável por receber o primeiro numero e adicionalo a variavel base - (number)
+     * Construtor responsável por receber o primeiro número e adiciona-lo a variavel base - (number)
      */
     public TurnBase(){
         System.out.println(kTurn.INPUT_STRING);

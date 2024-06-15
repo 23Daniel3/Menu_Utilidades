@@ -6,14 +6,14 @@ import MenuUtilidades.Constants.Kinvalid;
 import MenuUtilidades.Constants.kTurn;
 
 /**
- * Classe responsavel por pedir ao usuario a opcao de transformacao de graus desejada.
+ * Classe responsável por pedir ao usuário a opção de transformação de graus desejada.
 */
 public class TurnOption {
 
     Scanner input = new Scanner(System.in);
 
     /**
-     * Cosntrutor que pede ao usuario a opcao de transformacao e executa a classe desejada.
+     * Cosntrutor que pede ao usuário a opção de transformação e executa a classe desejada.
      */
     public TurnOption(){
         System.out.println(kTurn.OPTION_STRING);
@@ -21,7 +21,7 @@ public class TurnOption {
     }
 
     /**
-     * @param turn responsavel por executar cada classe com base no numero digitado.
+     * @param turn responsável por executar cada classe com base no numero digitado.
      */
     private static void execute(byte turn){
         switch(turn){
@@ -37,7 +37,7 @@ public class TurnOption {
     }
 
     /**
-     * @return o numero digitado pelo usuario referente a opcao escolhida.
+     * @return o número digitado pelo usuário referênte a opção escolhida.
      */
     private byte getTurn(){
         return input.nextByte();

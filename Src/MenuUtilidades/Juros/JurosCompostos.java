@@ -29,6 +29,11 @@ public class JurosCompostos {
         execute(getUtilidade());
     }
 
+    /**
+     * Método responsável por chamar as classes desejadas.
+     * 
+     * @param type Número da operação escolhida pelo usuário.
+     */
     private void execute(int type){
         switch (type) {
             case 1:

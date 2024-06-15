@@ -376,7 +376,7 @@ public final class Constants {
     public static final class kTurn {
 
         /**
-         * Mensagem para reber o calculo desejado.
+         * Mensagem para receber o calculo desejado.
          */
         public static final String OPTION_STRING = 
                 "Digite o calculo desejado\n"

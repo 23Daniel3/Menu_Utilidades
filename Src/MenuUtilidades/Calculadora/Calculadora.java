@@ -15,7 +15,7 @@ public class Calculadora {
     private static double firstNumber;
 
     /**
-     * Construtor responsavel por iniciar os metodos que pedem o primeiro numero, a operacao desejada e executa a operacao escolhida.
+     * Construtor responsável por iniciar os metodos que pedem o primeiro numero, a operação desejada e executa a operação escolhida.
      */
     public Calculadora(){
             firstNumber = getFirstNumber();

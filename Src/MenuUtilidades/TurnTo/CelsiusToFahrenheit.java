@@ -3,7 +3,7 @@ package MenuUtilidades.TurnTo;
 import MenuUtilidades.Constants.kTurn;
 
 /**
- * Classe responsavel por realizar o calculo de tranformacao de graus celsius para Fahreinheit.
+ * Classe responsável por realizar o calculo de tranformação de graus celsius para Fahreinheit.
  */
 public class CelsiusToFahrenheit extends TurnBase{
 
