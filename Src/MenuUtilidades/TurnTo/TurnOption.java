@@ -21,7 +21,7 @@ public class TurnOption {
     }
 
     /**
-     * @param turn responsável por executar cada classe com base no numero digitado.
+     * @param turn responsável por executar cada classe com base no número digitado.
      */
     private static void execute(byte turn){
         switch(turn){
