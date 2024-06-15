@@ -253,27 +253,43 @@ public final class Constants {
     public final class SimplesJuros {
 
         /**
-        * Calcula e exibe o tempo necessário para Juros Simples.
+        * Calcula o tempo necessário para Juros Simples.
         */
         public static final double TEMPO = (JurosSimples.getJuros() * 100) / (JurosSimples.getCapital() * JurosSimples.getTaxa());
+        
+        /**
+         * Exibe o tempo.
+         */
         public static final String TEMPO_STRING = "O tempo é: " + TEMPO + " na grandeza de tempo da taxa";
 
         /**
-        * Calcula e exibe a taxa de Juros Simples.
+        * Calcula a taxa de Juros Simples.
         */
         public static final double TAXA = (JurosSimples.getJuros() * 100) / (JurosSimples.getCapital() * JurosSimples.getTempo());
+        
+        /**
+         * Exibe a taxa.
+         */
         public static final String TAXA_STRING = "A taxa é: " + TAXA + " % na grandeza do tempo";
 
         /**
-        * Calcula e exibe os juros de Juros Simples.
+        * Calcula os juros com Juros Simples.
         */
         public static final double JUROS = JurosSimples.getTaxa() * JurosSimples.getCapital() * JurosSimples.getTempo() / 100;
+        
+        /**
+         * Exibe os juros simples.
+         */
         public static final String JUROS_STRING = "Os juros são: " + JUROS;
 
         /**
-        * Calcula e exibe o capital de Juros Simples.
+        * Calcula o capital usando juros simples.
         */
         public static final double CAPITAL = (JurosSimples.getJuros() * 100) / (JurosSimples.getTaxa() * JurosSimples.getTempo());
+        
+        /**
+         * Exibe o capital
+         */
         public static final String CAPITAL_STRING = "O capital é: " + CAPITAL;
 
         /**

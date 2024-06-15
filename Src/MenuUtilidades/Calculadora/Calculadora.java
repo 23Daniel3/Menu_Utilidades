@@ -14,8 +14,10 @@ public class Calculadora {
     static Scanner input = new Scanner(System.in);
     private static double firstNumber;
 
+    /**
+     * Construtor responsavel por iniciar os metodos que pedem o primeiro numero, a operacao desejada e executa a operacao escolhida.
+     */
     public Calculadora(){
-    
             firstNumber = getFirstNumber();
             String operacao = getOperacao();
             execute(operacao);
