@@ -72,5 +72,5 @@ public class Utilidades {
      */
     private static byte getUtilidade() {
         return scan.nextByte();
-    }
+    } // teste commit e push
 }
